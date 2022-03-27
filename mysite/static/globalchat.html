@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+</head>
+<body>
+    <div id="chatDiv">
+        <div>
+            <input id = "tosend" size = "40" onkeydown="maybesend()">
+            <button onclick = "send()">send</button>
+
+        </div>
+        <div>
+        <textarea id="messages" rows = "10" cols = "40"></textarea>
+        </div>
+        <button onclick="submit()">Submit</button>
+    </div>
+    
+    <button onclick = "hide()">HIDE/SHOW</button>
+    <script src="chattest.js"></script>
+
+</body>
+</html>
